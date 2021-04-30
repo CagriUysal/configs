@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     // project options
-    "module": "esnext",
     "target": "es5",
+    "module": "esnext",
     "lib": ["dom", "dom.iterable", "esnext"],
     "sourceMap": true,
     "jsx": "preserve",
@@ -12,8 +12,10 @@
 
     // strict options
     "strict": true,
+
     // module resolution
     "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
 
     // linter checks
